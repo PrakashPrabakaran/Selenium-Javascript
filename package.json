@@ -1,0 +1,30 @@
+
+
+{
+  "name": "seleniumjavascript",
+  "version": "1.0.0",
+  "main": "OpenBrowser.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chromedriver": "^112.0.0",
+    "selenium-webdriver": "^4.8.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.5.1",
+    "jest-environment-selenium": "^7.2.2",
+    "jest-selenium-webdriver": "^2.1.1"
+  },
+  "keywords": [],
+  "description": "",
+  "jest": {
+    "preset": "jest-selenium-webdriver",
+    "testEnvironment": "./node_modules/jest-environment-selenium",
+    "testTimeout": 30000
+  }
+}
+
