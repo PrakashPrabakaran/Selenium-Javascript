@@ -31,6 +31,24 @@ console.log(!required)
 
 
 
+Const ticketbook = new promise((resolve,reject) =>{
+    Let bookingSuccess = true
+    if(bookingSuccess)
+    resolve()
+    Else
+    reject()
+    })
+    ticketbook.then(success) // success na success method ah call pannidu
+    .catch(failure) //failure na failure method ah call pannidu
+    
+    Function success(){
+    console.log(“Successfully booked”)
+    }
+    function(){
+    console.log(“failed”)
+    }
+    
+
 
 
 
